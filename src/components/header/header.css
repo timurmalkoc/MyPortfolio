@@ -1,7 +1,19 @@
 header {
-    height: 43vh;
+    height: 55vh;
     padding-top: 7rem;
     overflow: hidden;
+}
+
+.name {
+    color: var(--color-black);
+    font-size: 4rem;
+    font-family: 'Rancho', serif;
+    text-shadow: 6px 6px 8px #aaa;
+}
+
+.hi {
+    color: var(--color-orange);
+    font-size: 2rem;
 }
 
 .header__container {
@@ -10,6 +22,27 @@ header {
     position: relative;
 }
 
+.job__title {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.job__title{
+    font-size: 25px;
+}
+
+.job__container.left {
+    text-align: right;
+    width: 10rem;
+    color: var(--color-dark);
+}
+
+.job__container.rigth {
+    text-align: left;
+    width: 20rem;
+    color: var(--color-dark-red);
+}
 /* top buttons */
 
 .cta {
@@ -18,6 +51,11 @@ header {
     gap: 1.2rem;
     justify-content: center;
 }
+
+.icon {
+    margin-left: 5px;
+}
+
 
 /* socials */
 
@@ -31,25 +69,10 @@ header {
     bottom: 3rem;
 }
 
-.header__socials::after {
-    content: "";
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
-}
-
 /* image */
 
-.me{
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+.header__socials > a {
+    color: var(--color-dark);
 }
 
 .scroll__down {
@@ -59,6 +82,7 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+    color: var(--color-dark);
 }
 
 /* responsive for screen */

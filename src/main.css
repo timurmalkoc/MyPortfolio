@@ -9,12 +9,18 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
-    --color-white: #fff;
-    --color-light: rgba(255,255,255, 0.6);
+    --color-bg: #EFEDE9;
+    --color-bg-variant: #A1CE6D;
+    --color-primary: #DAAD30;
+    --color-primary-variant: rgba(250,179,162, 0.4);
+    --color-black: #000;
+    --color-white:#fff;
+    --color-second:#94B39A;
+    --color-light: rgba(0,0,0, 0.7);
+    --color-dark:#3C4F5B;
+    --color-green:#3E550D;
+    --color-orange:#FF7B00;
+    --color-dark-red:#870B30;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -36,7 +42,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/media/bg-texture.png);
+    
 }
 
 /* General Styles */
@@ -61,11 +67,11 @@ section {
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-black);
 }
 
 section > h2 {
-    color: var(--color-primary);
+    color: var(--color-black);
     margin-bottom: 3rem;
 }
 
@@ -79,7 +85,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-white);
+    color: var(--color-second);
 }
 
 .btn {
@@ -94,7 +100,7 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: var(--color-white);
+    background-color: var(--color-second);
     color: var(--color-bg);
     border-color: transparent;
 }
