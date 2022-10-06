@@ -3,11 +3,11 @@ import './about.css'
 import ME from '../../media/about_me.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
-
+import { VscFolderLibrary } from 'react-icons/vsc'
 const About = () => {
   return (
 
-      <section id='about'>About
+      <section id='about'>
         <h5>Get To Know</h5>
         <h2>About Me</h2>
 
@@ -23,7 +23,7 @@ const About = () => {
               <article className="about__card">
                 <FaAward className='about__icon'/>
                 <h5>Experience</h5>
-                <small>8+ Years Working</small>
+                <small>8+ Years Working In IT Related</small>
               </article>
               <article className="about__card">
                 <FiUsers className='about__icon'/>
@@ -31,11 +31,16 @@ const About = () => {
                 <small>300+</small>
               </article>
               <article className="about__card">
-                <FaAward className='about__icon'/>
-                <h5>Experience</h5>
-                <small>8+ Years Working</small>
+                <VscFolderLibrary className='about__icon'/>
+                <h5>Projects</h5>
+                <small>20+ Completed</small>
               </article>
             </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel tempora mollitia, quo nisi voluptas omnis, debitis fugiat enim,
+               rerum aliquam aliquid animi eveniet reprehenderit commodi soluta ullam repellendus accusantium.
+            </p>
+
+            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           </div>
         </div>
       </section>
