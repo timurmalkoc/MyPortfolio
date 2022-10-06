@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
 import Buttons from './Buttons'
-import ME from '../../media/me.png'
 import HeaderSocial from './HeaderSocial'
 
 const Header = () => {
@@ -14,9 +13,6 @@ const Header = () => {
       <Buttons/>
       <HeaderSocial/>
 
-      <div className="me">
-        <img src={ME} alt="me"/>
-      </div>
 
       <a href="#contact" className='scroll__down'>Scroll Down</a>
 

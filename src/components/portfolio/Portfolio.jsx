@@ -1,6 +1,8 @@
 import React from 'react'
 import './portfolio.css'
 import Test from '../../media/test.png'
+import CarDealer from '../../media/car_dealership.jpg'
+import HMS from '../../media/hms.jpg'
 
 const data = [
   {
@@ -10,19 +12,35 @@ const data = [
     github: "https://github.com/timurmalkoc/AutomationProject",
     demo: "",
     video: "https://www.linkedin.com/feed/update/urn:li:activity:6977665953274712064/"
+  },
+  {
+    id:2,
+    img: CarDealer,
+    title: "Car Dealership Postgres",
+    github: "https://github.com/timurmalkoc/Car-Dealership-DB",
+    demo: "",
+    video: "https://www.linkedin.com/feed/update/urn:li:activity:6977664185824366593/"
+  },
+  {
+    id:3,
+    img: HMS,
+    title: "Hospital Management System",
+    github: "https://github.com/timurmalkoc/Hospital_Management_System",
+    demo: "",
+    video: "https://www.linkedin.com/feed/update/urn:li:activity:6980029663884558336/"
   }
 ]
 
 
 const Portfolio = () => {
   return (
-    <div id='portfolio'>
+    <section id='portfolio'>
       <h5>My Recent Works</h5>
       <h2>Portfolio</h2>
     
       <div className="container portfolio__container">
         {
-          data.map(({id, img, title, github, demo, video}) => {
+          data.reverse().map(({id, img, title, github, demo, video}) => {
             return(
               <article key={id} className='portfolio__item'>
                 <div className="portfolio__item-image">
@@ -39,7 +57,7 @@ const Portfolio = () => {
           })
         }
       </div>    
-    </div>
+    </section>
   )
 }
 
