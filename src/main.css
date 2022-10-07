@@ -16,11 +16,16 @@
     --color-black: #000;
     --color-white:#fff;
     --color-second:#94B39A;
+    --color-second-dark:#D7E8FC;
     --color-light: rgba(0,0,0, 0.7);
     --color-dark:#3C4F5B;
     --color-green:#3E550D;
     --color-orange:#FF7B00;
     --color-dark-red:#870B30;
+    --color-pastel-blue:#9FBEE0;
+    --color-pastel-blue-dark:#2E8BC2;
+    --color-pastel-blue-2dark:#243274;
+    --color-pastel-purple-light:#D3AFDB;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;

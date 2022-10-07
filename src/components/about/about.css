@@ -1,14 +1,19 @@
+#about {
+    background: var(--color-second-dark);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 20% 60%;
+    gap: 10%;
 }
 
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-second),transparent);
+    background: linear-gradient(45deg, transparent, var(--color-pastel-blue),transparent);
     display: grid;
     place-items: center;
 }
@@ -24,25 +29,21 @@
     transform: rotate(0);
 }
 
-.about__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-}
-
-.about__card {
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
+.about__know {
+    font-family: 'Tangerine', serif;
+    font-size: 2.5rem;
     text-align: center;
-    transition: var(--transition);
+    color: var(--color-pastel-blue-dark);
 }
 
-.about__card:hover {
-    background: transparent;
-    border-color: var(--color-bg-variant);
-    cursor: default;
+.about__about-me {
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+}
+
+.about-me{
+    color: var(--color-pastel-blue-2dark);
 }
 
 .about__icon {
