@@ -5,7 +5,7 @@ import { FiGithub } from 'react-icons/fi'
 
 function Footer() {
  return (
-    <footer id='portfolio'>
+    <footer id='footer'>
       <p className='footer__name'><b>Timur Celik</b></p>
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>

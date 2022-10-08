@@ -1,7 +1,24 @@
+.contact__title{
+    font-family: 'Tangerine', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--color-pastel-2ligth-green);
+}
+
+.contact__me{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--color-pastel-blue-2dark);
+}
+
 .container.contact__container{
     width: 75%;
     display: grid;
     grid-template-columns: 1fr;
+    padding: 2rem;
+    border-radius: 1.2rem;
+    background-color: var(--color-white);
+    box-shadow:0px 5px 10px black;
 }
 
 form {
@@ -15,7 +32,31 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background:transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-black);
     resize: none;
+    color: var(--color-black);
+    font-size: 1.3rem;
+}
+
+.bttn{
+    width: max-content;
+    display: inline-block;
     color: var(--color-white);
+    background-color: var(--color-pastel-purple-dark);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-pastel-purple-dark);
+    transition: var(--transition);
+    font-size: 1.3rem;
+}
+
+.bttn:hover {
+    background-color: var(--color-pastel-black-variant);
+    color: var(--color-pastel-purple-dark);
+    border-color: transparent;
+}
+
+.bttn:hover .send{
+    transform: translate3d(5px,-5px,0);
 }

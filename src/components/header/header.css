@@ -1,5 +1,5 @@
 header {
-    height: 55vh;
+    height: max-content;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -56,6 +56,13 @@ header {
     margin-left: 5px;
 }
 
+.download {
+    transition: var(--transition);
+}
+
+.download a:hover .icon {
+    transform: translateY(5px);
+}
 
 /* socials */
 

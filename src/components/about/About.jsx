@@ -14,7 +14,7 @@ const About = () => {
               <img src={ME} alt="" />
             </div>
           </div>
-
+          
           <div className="about__content">
             <p>I am a Full-Stack developer in the US. I graduated Sakarya University with a major Computer Systems. I am very passionate 
               about improving my coding skills & developing applications & websites & test automation. I build WebApps and Websites using Flask

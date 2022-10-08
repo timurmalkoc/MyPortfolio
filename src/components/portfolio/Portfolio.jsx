@@ -35,8 +35,8 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Works</h5>
-      <h2>Portfolio</h2>
+      <div className='work'><b>My Recent Works</b></div>
+      <div className='portfolio'>Portfolio</div>
     
       <div className="container portfolio__container">
         {
@@ -48,9 +48,9 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  {github ? <a href={github} className='btn' target="_blank">GitHub</a> : null}
-                  {demo ? <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a> : null}
-                  {video ? <a href={video} className='btn' target="_blank">Video</a> :null}
+                  {github ? <a href={github} className='bttn' target="_blank">GitHub</a> : null}
+                  {demo ? <a href={demo} className='bttn' target="_blank">Live Demo</a> : null}
+                  {video ? <a href={video} className='bttn' target="_blank">Video</a> :null}
                 </div>
               </article>
             )

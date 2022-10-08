@@ -26,6 +26,14 @@
     --color-pastel-blue-dark:#2E8BC2;
     --color-pastel-blue-2dark:#243274;
     --color-pastel-purple-light:#D3AFDB;
+    --color-pastel-purple:#A24C90;
+    --color-pastel-purple-dark:#61408D;
+    --color-pastel-ligth-green:#9DD7C9;
+    --color-pastel-2ligth-green:#0393B9;
+    --color-pastel-ligth-yellow:#F6EEB6;
+    --color-pastel-black-variant:rgba(0,0,0, 0.2);
+
+
 
     --container-width-lg: 75%;
     --container-width-md: 86%;

@@ -11,13 +11,14 @@ const Header = () => {
 
 
   return (
-    <header>
+    <header id='home'>
       <div className="container header__container">
       <div className='hi'>Hi There</div>
       <div className='name'>I'm Timur Celik</div>
       <div className='job__title'>
         <div className='job__container left'>I'm a</div>
-        <div className='job__container rigth'><Typical loop={Infinity} wrapper='b' steps={titles}/> </div>
+        <div className='job__container rigth'>
+          <Typical loop={Infinity} wrapper='b' steps={titles}/> </div>
       </div>
       <Buttons/>
       <HeaderSocial/>
