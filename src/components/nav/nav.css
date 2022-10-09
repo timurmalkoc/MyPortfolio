@@ -6,7 +6,7 @@ nav{
     z-index: 2;
     position: fixed;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate3d(-50%,0,0);
     bottom: 2rem;
     display: flex;
     gap: 0.8rem;
@@ -31,5 +31,24 @@ nav a:hover {
 nav a.active {
     background: var(--color-bg);
     color: var(--color-pastel-blue-2dark);
+}
+
+.navAnimation{
+    animation-name: nav-load;
+    animation-duration: 600ms;
+    animation-delay: 600ms;
+    animation-timing-function: ease-in;
+}
+
+@keyframes nav-load{
+    0%{
+        transform: translate3d(-50%,100px,0);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(-50%,0px,0);
+        opacity: 1;
+    }
 }
 

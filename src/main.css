@@ -40,6 +40,8 @@
     --container-width-sm: 90%;
 
     --transition: all 400ms ease;
+    --transition-in: all 400ms ease-in;
+    --transition-out: all 400ms ease-out;
 }
 
 html {

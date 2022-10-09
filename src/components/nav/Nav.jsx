@@ -4,12 +4,13 @@ import { FaHome, FaUserAlt } from 'react-icons/fa'
 import { AiTwotoneCode } from 'react-icons/ai'
 import { MdContactMail, MdComputer } from 'react-icons/md'
 import { Link } from 'react-scroll'
+import { useInView } from 'react-intersection-observer'
 
 const Nav = () => {
-
+  const { ref:navRef, inView: navVisible } = useInView()
   return (
     
-    <nav>
+    <nav ref={navRef} className={navVisible?"navAnimation":""}>
       <Link to="home"       spy={true}><FaHome/></Link>
       <Link to="about"      spy={true} offset={window.innerWidth > 800 ? -100 : 0}><FaUserAlt/></Link>
       <Link to="experience" spy={true}><MdComputer/></Link>
