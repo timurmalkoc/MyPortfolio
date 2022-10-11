@@ -78,3 +78,13 @@ input, textarea {
 .bttn:hover .send{
     transform: translate3d(5px,-5px,0);
 }
+
+
+/* media queries - << Small >> */
+@media screen and (max-width: 360px) {
+
+    .container.contact__container{
+        padding: 1rem;
+    }
+
+}
