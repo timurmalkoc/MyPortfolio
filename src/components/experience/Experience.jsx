@@ -1,9 +1,9 @@
 import React from 'react'
 import './experience.css'
-import { BsPatchCheckFill } from 'react-icons/bs'
+import { useInView } from 'react-intersection-observer'
 
 function Experience() {
-
+  const { ref:expRef, inView: expVisible } = useInView()
   const front = [
     { id:1, tool:"HTML",        exp:"Experienced",img:"https://img.icons8.com/color/48/000000/html-5--v1.png" },
     { id:2, tool:"CSS",         exp:"Experienced",img:"https://img.icons8.com/color/48/000000/css3.png" },
@@ -32,7 +32,7 @@ function Experience() {
   return (
 
     <section id='experience'>
-      <h5 className='skills'><b>What Skills I Have</b></h5>
+      <h5 ref={expRef} className={`skills ${expVisible? "expAnimate":""}`}><b>What Skills I Have</b></h5>
       <h2 className='exp'>My Experience</h2>
 
       <div className="container experience__container">

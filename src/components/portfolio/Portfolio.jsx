@@ -3,15 +3,16 @@ import './portfolio.css'
 import Test from '../../media/test.png'
 import CarDealer from '../../media/car_dealership.jpg'
 import HMS from '../../media/hms.jpg'
+import { useInView } from 'react-intersection-observer'
 
 const data = [
   {
-    id:1,
-    img: Test,
-    title: "Test Automation",
-    github: "https://github.com/timurmalkoc/AutomationProject",
+    id:3,
+    img: HMS,
+    title: "Hospital Management System",
+    github: "https://github.com/timurmalkoc/Hospital_Management_System",
     demo: "",
-    video: "https://www.linkedin.com/feed/update/urn:li:activity:6977665953274712064/"
+    video: "https://www.linkedin.com/feed/update/urn:li:activity:6980029663884558336/"
   },
   {
     id:2,
@@ -22,25 +23,29 @@ const data = [
     video: "https://www.linkedin.com/feed/update/urn:li:activity:6977664185824366593/"
   },
   {
-    id:3,
-    img: HMS,
-    title: "Hospital Management System",
-    github: "https://github.com/timurmalkoc/Hospital_Management_System",
+    id:1,
+    img: Test,
+    title: "Test Automation",
+    github: "https://github.com/timurmalkoc/AutomationProject",
     demo: "",
-    video: "https://www.linkedin.com/feed/update/urn:li:activity:6980029663884558336/"
-  }
+    video: "https://www.linkedin.com/feed/update/urn:li:activity:6977665953274712064/"
+  } 
+  
 ]
 
 
 const Portfolio = () => {
+
+  const { ref:portRef, inView: portVisible } = useInView()
+
   return (
     <section id='portfolio'>
-      <div className='work'><b>My Recent Works</b></div>
+      <div ref={portRef} className={`work ${portVisible? "portAnimate":""}`}><b>My Recent Works</b></div>
       <div className='portfolio'>Portfolio</div>
     
       <div className="container portfolio__container">
         {
-          data.reverse().map(({id, img, title, github, demo, video}) => {
+          data.map(({id, img, title, github, demo, video}) => {
             return(
               <article key={id} className='portfolio__item'>
                 <div className="portfolio__item-image">

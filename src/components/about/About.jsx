@@ -1,12 +1,15 @@
 import React from 'react'
 import './about.css'
 import ME from '../../media/about_me.jpg'
+import { useInView } from 'react-intersection-observer'
+
 const About = () => {
+  const { ref:aboutRef, inView: aboutVisible } = useInView()
   return (
 
       <section id='about'>
-        <div className='about__know'><b>Get To Know</b></div>
-        <div className='about__about-me'>About <b className='about-me'>Me</b></div>
+        <div ref={aboutRef} className={`about__know ${aboutVisible? "aboutAnimate":""}`}><b>Get To Know</b></div>
+        <div className='about__about-me'>About <b className={`about-me ${aboutVisible? "aboutAnimate":""}`} >Me</b></div>
 
         <div className="container about__container">
           <div className="about__me">

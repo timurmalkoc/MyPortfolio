@@ -1,11 +1,13 @@
 import React from 'react'
 import './contact.css'
 import { TbSend } from 'react-icons/tb'
+import { useInView } from 'react-intersection-observer'
 
 function Contact() {
+  const { ref:contactRef, inView: contatctVisible } = useInView()
   return (
     <section id='contact'>
-      <div className='contact__title'><b>Get In Touch</b></div>
+      <div ref={contactRef} className={`contact__title ${contatctVisible? "contactAnimate":""}`}><b>Get In Touch</b></div>
       <div className='contact__me'>Contact Me</div>
       <div className='container contact__container'>
           <form action="">

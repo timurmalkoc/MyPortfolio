@@ -56,7 +56,27 @@
 
 .experience__details:hover {
     box-shadow: 0px 10px 10px var(--color-pastel-purple-dark); 
+    animation-duration: 400ms;
+    animation-timing-function: ease-out;
+    animation-name: bounce;
 }
+
+
+@keyframes bounce{
+    20%,50%,80%,to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
+}
+
 
 .tool_img {
     width: 4rem;
@@ -71,6 +91,31 @@
 .tool__exp {
     color: var(--color-second-dark);
 }
+
+.expAnimate{
+    animation-name: title-load;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in;
+}
+
+@keyframes title-load{
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.meAnimate{
+    animation-name: me-load;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in;
+}
+
 /* responsive for screen */
 
 /* media queries - << Medium >> */

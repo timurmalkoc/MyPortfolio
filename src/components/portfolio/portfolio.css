@@ -4,6 +4,24 @@
     padding-bottom: 3rem;
 }
 
+.portAnimate{
+    animation-name: title-load;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in;
+}
+
+@keyframes title-load{
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
 .work{
     font-family: 'Tangerine', serif;
     font-size: 2.5rem;

@@ -5,6 +5,24 @@
     color: var(--color-pastel-2ligth-green);
 }
 
+.contactAnimate{
+    animation-name: title-load;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in;
+}
+
+@keyframes title-load{
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
 .contact__me{
     font-size: 3rem;
     text-align: center;

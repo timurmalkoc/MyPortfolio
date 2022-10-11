@@ -114,21 +114,26 @@ header {
 /* media queries - << Medium >> */
 @media screen and (max-width: 1024px) {
     header{
-        height: 110vh;
+        height: 100vh;
         overflow: hidden;
         
+    }
+    .name {
+        font-size: 4rem;
     }
 
 }
 
 /* media queries - << Small >> */
 @media screen and (max-width: 600px) {
-    header{
-        height: 150vh;
-    }
+
     .header__socials, .scroll__down {
         display: none;
     }
+    .name {
+        font-size: 3rem;
+    }
+
 }
 
 /* cube */
