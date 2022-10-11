@@ -51,13 +51,11 @@ header {
 
 .job__container.left {
     text-align: right;
-    width: 5rem;
     color: var(--color-dark);
 }
 
 .job__container.rigth {
     text-align: left;
-    width: 25rem;
     color: var(--color-dark-red);
 }
 /* top buttons */
