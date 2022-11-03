@@ -8,7 +8,8 @@ function Experience() {
     { id:1, tool:"HTML",        exp:"Experienced",img:"https://img.icons8.com/color/48/000000/html-5--v1.png" },
     { id:2, tool:"CSS",         exp:"Experienced",img:"https://img.icons8.com/color/48/000000/css3.png" },
     { id:3, tool:"JavaScript",  exp:"Experienced",img:"https://img.icons8.com/color/48/000000/javascript--v1.png" },
-    { id:4, tool:"React",       exp:"Experienced",img:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" }
+    { id:4, tool:"React",       exp:"",img:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" },
+    { id:4, tool:"Redux",       exp:"",img:"https://e7.pngegg.com/pngimages/669/447/png-clipart-redux-react-javascript-freecodecamp-npm-others-miscellaneous-purple-thumbnail.png" }
   ]
 
   const back = [
