@@ -8,12 +8,14 @@ function Experience() {
     { id:1, tool:"HTML",        exp:"Experienced",img:"https://img.icons8.com/color/48/000000/html-5--v1.png" },
     { id:2, tool:"CSS",         exp:"Experienced",img:"https://img.icons8.com/color/48/000000/css3.png" },
     { id:3, tool:"JavaScript",  exp:"Experienced",img:"https://img.icons8.com/color/48/000000/javascript--v1.png" },
-    { id:4, tool:"React",       exp:"",img:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" },
-    { id:4, tool:"Redux",       exp:"",img:"https://e7.pngegg.com/pngimages/669/447/png-clipart-redux-react-javascript-freecodecamp-npm-others-miscellaneous-purple-thumbnail.png" }
+    { id:4, tool:"React",       exp:"Experienced",img:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" },
+    { id:5, tool:"Redux",       exp:"Experienced",img:"https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" }
   ]
 
   const back = [
     { id:1, tool:"Python",      exp:"Experienced",  img:"https://img.icons8.com/color/48/000000/python--v1.png" },
+    { id:10, tool:"Flask",      exp:"Experienced",  img:"https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" },
+    { id:9, tool:"Django",      exp:"Experienced",  img:"https://gitlab.com/uploads/-/system/project/avatar/24625030/django-icon-0.png" },
     { id:2, tool:"Java",        exp:"Intermediate", img:"https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" },
     { id:3, tool:"ExpressJS",   exp:"Basic",        img:"https://img.icons8.com/fluency/48/000000/node-js.png" },
     { id:4, tool:"NodeJS",      exp:"Basic",        img:"https://img.icons8.com/color/48/000000/nodejs.png" },
