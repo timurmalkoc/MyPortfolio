@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.eacbab47.css",
-    "main.js": "/MyPortfolio/static/js/main.82da424f.js",
+    "main.js": "/MyPortfolio/static/js/main.bc81adf9.js",
     "static/media/test.png": "/MyPortfolio/static/media/test.e7f52b81a449db8c73fd.png",
     "static/media/about_me.jpg": "/MyPortfolio/static/media/about_me.87831c4b325e33872a4e.jpg",
     "static/media/hms.jpg": "/MyPortfolio/static/media/hms.8e3ef1f4513ecd841fec.jpg",
@@ -9,10 +9,10 @@
     "static/media/car_dealership.jpg": "/MyPortfolio/static/media/car_dealership.092cbf74948c47062602.jpg",
     "index.html": "/MyPortfolio/index.html",
     "main.eacbab47.css.map": "/MyPortfolio/static/css/main.eacbab47.css.map",
-    "main.82da424f.js.map": "/MyPortfolio/static/js/main.82da424f.js.map"
+    "main.bc81adf9.js.map": "/MyPortfolio/static/js/main.bc81adf9.js.map"
   },
   "entrypoints": [
     "static/css/main.eacbab47.css",
-    "static/js/main.82da424f.js"
+    "static/js/main.bc81adf9.js"
   ]
 }
