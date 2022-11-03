@@ -16,6 +16,7 @@ function Experience() {
     { id:1, tool:"Python",      exp:"Experienced",  img:"https://img.icons8.com/color/48/000000/python--v1.png" },
     { id:10, tool:"Flask",      exp:"Experienced",  img:"https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" },
     { id:9, tool:"Django",      exp:"Experienced",  img:"https://gitlab.com/uploads/-/system/project/avatar/24625030/django-icon-0.png" },
+    { id:9, tool:"Jinja",       exp:"Experienced",  img:"https://jinja.palletsprojects.com/en/3.0.x/_static/jinja-logo-sidebar.png" },
     { id:2, tool:"Java",        exp:"Intermediate", img:"https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" },
     { id:3, tool:"ExpressJS",   exp:"Basic",        img:"https://img.icons8.com/fluency/48/000000/node-js.png" },
     { id:4, tool:"NodeJS",      exp:"Basic",        img:"https://img.icons8.com/color/48/000000/nodejs.png" },
