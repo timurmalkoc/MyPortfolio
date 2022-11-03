@@ -19,9 +19,9 @@ const About = () => {
           </div>
           
           <div className="about__content">
-            <p>I am a Full-Stack developer in the US. I graduated Sakarya University with a major Computer Systems. I am very passionate 
-              about improving my coding skills & developing applications & websites & test automation. I build WebApps and Websites using Flask
-              and test with Selenuim. Working for myself to improve my skills. Love to build Full-Stack applications.
+            <p>I am a Full-Stack developer in the US. I graduated from Sakarya University with a major Computer Systems. I am very passionate 
+              about learning new technologies & developing applications & websites & test automation. I build WebApps and Websites using python-flask/django nodejs-express back-end,
+              javascript-react front-end and testing UI with Selenuim. Love to build Full-Stack applications and open to learn more technologies.
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
