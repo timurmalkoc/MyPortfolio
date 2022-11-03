@@ -111,11 +111,11 @@ header {
 
 /* media queries - << Medium >> */
 @media screen and (max-width: 1024px) {
-    header{
+    /* header{
         height: 100vh;
         overflow: hidden;
         
-    }
+    } */
     .name {
         font-size: 4rem;
     }
