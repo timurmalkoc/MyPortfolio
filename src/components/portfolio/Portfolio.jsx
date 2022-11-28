@@ -3,16 +3,34 @@ import './portfolio.css'
 import Test from '../../media/test.png'
 import CarDealer from '../../media/car_dealership.jpg'
 import HMS from '../../media/hms.jpg'
+import Calculator from '../../media/calculator.jpg'
+import Expense from '../../media/expense_tracking.jpg'
 import { useInView } from 'react-intersection-observer'
 
 const data = [
   {
-    id:3,
+    id:5,
     img: HMS,
     title: "Hospital Management System",
     github: "https://github.com/timurmalkoc/Hospital_Management_System",
     demo: "",
     video: "https://www.linkedin.com/feed/update/urn:li:activity:6980029663884558336/"
+  },
+  {
+    id:4,
+    img: Calculator,
+    title: "Simple Calculator",
+    github: "https://github.com/timurmalkoc/calculator",
+    demo: "https://timurmalkoc.github.io/calculator/",
+    video: ""
+  },
+  {
+    id:3,
+    img: Expense,
+    title: "Expense Tracking",
+    github: "https://github.com/timurmalkoc/budget-tracking",
+    demo: "https://timurmalkoc.github.io/budget-tracking/",
+    video: ""
   },
   {
     id:2,
