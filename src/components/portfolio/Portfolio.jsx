@@ -1,20 +1,29 @@
-import React from 'react'
-import './portfolio.css'
-import Test from '../../media/test.png'
-import CarDealer from '../../media/car_dealership.jpg'
-import HMS from '../../media/hms.jpg'
-import Calculator from '../../media/calculator.jpg'
-import Expense from '../../media/expense_tracking.jpg'
-import { useInView } from 'react-intersection-observer'
+import React from 'react';
+import './portfolio.css';
+import Test from '../../media/test.png';
+import CarDealer from '../../media/car_dealership.jpg';
+import HMS from '../../media/hms.jpg';
+import Calculator from '../../media/calculator.jpg';
+import Expense from '../../media/expense_tracking.jpg';
+import FoodOrder from '../../media/foodorder.jpg';
+import { useInView } from 'react-intersection-observer';
 
 const data = [
   {
-    id:5,
+    id:6,
     img: HMS,
     title: "Hospital Management System",
     github: "https://github.com/timurmalkoc/Hospital_Management_System",
     demo: "",
     video: "https://www.linkedin.com/feed/update/urn:li:activity:6980029663884558336/"
+  },
+  {
+    id:5,
+    img: FoodOrder,
+    title: "Food Order",
+    github: "https://github.com/timurmalkoc/Food-Order",
+    demo: "https://timurmalkoc.github.io/Food-Order/",
+    video: ""
   },
   {
     id:4,
