@@ -1,21 +1,22 @@
-import React from 'react'
-import './experience.css'
-import { useInView } from 'react-intersection-observer'
+import React from 'react';
+import './experience.css';
+import { useInView } from 'react-intersection-observer';
+import Django from '../../media/django.png';
 
 function Experience() {
-  const { ref:expRef, inView: expVisible } = useInView()
+  const { ref:expRef, inView: expVisible } = useInView();
   const front = [
     { id:1, tool:"HTML",        exp:"Experienced",img:"https://img.icons8.com/color/48/000000/html-5--v1.png" },
     { id:2, tool:"CSS",         exp:"Experienced",img:"https://img.icons8.com/color/48/000000/css3.png" },
     { id:3, tool:"JavaScript",  exp:"Experienced",img:"https://img.icons8.com/color/48/000000/javascript--v1.png" },
     { id:4, tool:"React",       exp:"Experienced",img:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" },
     { id:5, tool:"Redux",       exp:"Experienced",img:"https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" }
-  ]
+  ];
 
   const back = [
     { id:1, tool:"Python",      exp:"Experienced",  img:"https://img.icons8.com/color/48/000000/python--v1.png" },
     { id:10, tool:"Flask",      exp:"Experienced",  img:"https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" },
-    { id:9, tool:"Django",      exp:"Experienced",  img:"https://gitlab.com/uploads/-/system/project/avatar/24625030/django-icon-0.png" },
+    { id:9, tool:"Django",      exp:"Experienced",  img:Django },
     { id:9, tool:"Jinja",       exp:"Experienced",  img:"https://jinja.palletsprojects.com/en/3.0.x/_static/jinja-logo-sidebar.png" },
     { id:2, tool:"Java",        exp:"Intermediate", img:"https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" },
     { id:3, tool:"ExpressJS",   exp:"Basic",        img:"https://img.icons8.com/fluency/48/000000/node-js.png" },
@@ -24,7 +25,7 @@ function Experience() {
     { id:6, tool:"PostgreSQL",  exp:"Intermediate", img:"https://img.icons8.com/color/48/000000/postgreesql.png" },
     { id:7, tool:"MySQL",       exp:"Intermediate", img:"https://img.icons8.com/color/48/000000/mysql-logo.png" },
     { id:8, tool:"MongoDB",     exp:"Intermediate", img:"https://img.icons8.com/color/48/000000/mongodb.png" },
-  ]
+  ];
 
   const test = [
     { id:1, tool:"Selenuim",    exp:"Experienced",  img:"https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" },
@@ -32,7 +33,7 @@ function Experience() {
     { id:3, tool:"Cucumber",    exp:"Experienced",  img:"https://cdn.iconscout.com/icon/free/png-256/cucumber-130-1175236.png" },
     { id:4, tool:"Postman",     exp:"Experienced",  img:"https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
     { id:5, tool:"Jenkins",     exp:"Intermediate", img:"https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" }
-  ]
+  ];
   return (
 
     <section id='experience'>
